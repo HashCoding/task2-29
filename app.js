@@ -23,7 +23,7 @@
     var show = function(status, c) {
         spanNode.innerHTML = msg[status];
         spanNode.style.color = colors[c];
-        nicknameNode.className += ' '+  c;
+        nicknameNode.className = 'input '+  c;
     }
     
     button.addEventListener('click', function(){
